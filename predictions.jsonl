@@ -1,0 +1,40 @@
+{"config": "a", "id": "c1", "input": "error TS2304: Cannot find name 'userId'", "expected": "compile", "raw": "compile", "parsed": "compile"}
+{"config": "a", "id": "c2", "input": "javac: error: ';' expected at line 42", "expected": "compile", "raw": "compile", "parsed": "compile"}
+{"config": "a", "id": "c3", "input": "SyntaxError: invalid syntax (config.py, line 7)", "expected": "compile", "raw": "compile", "parsed": "compile"}
+{"config": "a", "id": "c4", "input": "go build: undefined: fmt.Printn", "expected": "compile", "raw": "compile", "parsed": "compile"}
+{"config": "a", "id": "t1", "input": "FAIL src/api.test.ts > GET /users returns 200 (expected 200, received 500)", "expected": "test", "raw": "test", "parsed": "test"}
+{"config": "a", "id": "t2", "input": "AssertionError: expected 3 to equal 4", "expected": "test", "raw": "test", "parsed": "test"}
+{"config": "a", "id": "t3", "input": "1 failing test: should retry on 429", "expected": "test", "raw": "test", "parsed": "test"}
+{"config": "a", "id": "t4", "input": "pytest: 2 failed, 41 passed", "expected": "test", "raw": "test", "parsed": "test"}
+{"config": "a", "id": "f1", "input": "Attempt 1 failed, attempt 2 passed: test_session_refresh", "expected": "flake", "raw": "test", "parsed": "test"}
+{"config": "a", "id": "f2", "input": "Marked flaky by retry plugin: test_parallel_upload", "expected": "flake", "raw": "flake", "parsed": "flake"}
+{"config": "a", "id": "f3", "input": "Timing-sensitive test failed on a slow runner, passed on rerun", "expected": "flake", "raw": "flake", "parsed": "flake"}
+{"config": "a", "id": "f4", "input": "Unstable snapshot: output contains a generated timestamp", "expected": "flake", "raw": "flake", "parsed": "flake"}
+{"config": "a", "id": "i1", "input": "Runner lost connection to the agent; job aborted", "expected": "infra", "raw": "infra", "parsed": "infra"}
+{"config": "a", "id": "i2", "input": "No space left on device while writing cache", "expected": "infra", "raw": "infra", "parsed": "infra"}
+{"config": "a", "id": "i3", "input": "OOMKilled: container exceeded memory limit", "expected": "infra", "raw": "infra", "parsed": "infra"}
+{"config": "a", "id": "i4", "input": "Docker daemon not reachable; failed to start build container", "expected": "infra", "raw": "infra", "parsed": "infra"}
+{"config": "a", "id": "x1", "input": "Job exceeded the 60 minute timeout and was cancelled", "expected": "timeout", "raw": "timeout", "parsed": "timeout"}
+{"config": "a", "id": "x2", "input": "Timeout after 300s waiting for node 'test-worker-3'", "expected": "timeout", "raw": "timeout", "parsed": "timeout"}
+{"config": "a", "id": "x3", "input": "Step 'npm install' timed out after 900 seconds", "expected": "timeout", "raw": "timeout", "parsed": "timeout"}
+{"config": "a", "id": "x4", "input": "Build cancelled: maximum execution time of 2 hours reached", "expected": "timeout", "raw": "timeout", "parsed": "timeout"}
+{"config": "b", "id": "c1", "input": "error TS2304: Cannot find name 'userId'", "expected": "compile", "raw": "compile", "parsed": "compile"}
+{"config": "b", "id": "c2", "input": "javac: error: ';' expected at line 42", "expected": "compile", "raw": "compile", "parsed": "compile"}
+{"config": "b", "id": "c3", "input": "SyntaxError: invalid syntax (config.py, line 7)", "expected": "compile", "raw": "compile", "parsed": "compile"}
+{"config": "b", "id": "c4", "input": "go build: undefined: fmt.Printn", "expected": "compile", "raw": "compile", "parsed": "compile"}
+{"config": "b", "id": "t1", "input": "FAIL src/api.test.ts > GET /users returns 200 (expected 200, received 500)", "expected": "test", "raw": "test", "parsed": "test"}
+{"config": "b", "id": "t2", "input": "AssertionError: expected 3 to equal 4", "expected": "test", "raw": "test", "parsed": "test"}
+{"config": "b", "id": "t3", "input": "1 failing test: should retry on 429", "expected": "test", "raw": "test", "parsed": "test"}
+{"config": "b", "id": "t4", "input": "pytest: 2 failed, 41 passed", "expected": "test", "raw": "test", "parsed": "test"}
+{"config": "b", "id": "f1", "input": "Attempt 1 failed, attempt 2 passed: test_session_refresh", "expected": "flake", "raw": "test", "parsed": "test"}
+{"config": "b", "id": "f2", "input": "Marked flaky by retry plugin: test_parallel_upload", "expected": "flake", "raw": "flake", "parsed": "flake"}
+{"config": "b", "id": "f3", "input": "Timing-sensitive test failed on a slow runner, passed on rerun", "expected": "flake", "raw": "test", "parsed": "test"}
+{"config": "b", "id": "f4", "input": "Unstable snapshot: output contains a generated timestamp", "expected": "flake", "raw": "flake", "parsed": "flake"}
+{"config": "b", "id": "i1", "input": "Runner lost connection to the agent; job aborted", "expected": "infra", "raw": "infra", "parsed": "infra"}
+{"config": "b", "id": "i2", "input": "No space left on device while writing cache", "expected": "infra", "raw": "infra", "parsed": "infra"}
+{"config": "b", "id": "i3", "input": "OOMKilled: container exceeded memory limit", "expected": "infra", "raw": "infra", "parsed": "infra"}
+{"config": "b", "id": "i4", "input": "Docker daemon not reachable; failed to start build container", "expected": "infra", "raw": "infra", "parsed": "infra"}
+{"config": "b", "id": "x1", "input": "Job exceeded the 60 minute timeout and was cancelled", "expected": "timeout", "raw": "timeout", "parsed": "timeout"}
+{"config": "b", "id": "x2", "input": "Timeout after 300s waiting for node 'test-worker-3'", "expected": "timeout", "raw": "timeout", "parsed": "timeout"}
+{"config": "b", "id": "x3", "input": "Step 'npm install' timed out after 900 seconds", "expected": "timeout", "raw": "timeout", "parsed": "timeout"}
+{"config": "b", "id": "x4", "input": "Build cancelled: maximum execution time of 2 hours reached", "expected": "timeout", "raw": "timeout", "parsed": "timeout"}
